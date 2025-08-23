@@ -11,7 +11,7 @@ public class Problem4 {
             }
         }
 
-        // Print in same format {1: 11, 2: 8, ...}
+    
         System.out.print("{");
         for (int i = 1; i <= 9; i++) {
             System.out.print(i + ": " + count[i]);
@@ -20,3 +20,4 @@ public class Problem4 {
         System.out.println("}");
     }
 }
+
