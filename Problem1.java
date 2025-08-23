@@ -4,7 +4,7 @@ public class Problem1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Taking inputs
+    
         System.out.print("Enter first number (a): ");
         double a = sc.nextDouble();
 
@@ -16,7 +16,7 @@ public class Problem1 {
 
         Calculator calc = new Calculator();
 
-        // Using if-else instead of switch
+
         if (operation.equalsIgnoreCase("add")) {
             System.out.println("Result: " + calc.add(a, b));
         } else if (operation.equalsIgnoreCase("sub")) {
@@ -54,3 +54,4 @@ class Calculator {
         return a / b;
     }
 }
+
